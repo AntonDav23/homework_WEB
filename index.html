@@ -3,9 +3,115 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Главная</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <title>Магазин</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="icons/bootstrap-icons.css" rel="stylesheet">
   </head>
   <body>
-</body>
+    <div class="bg-dark text-white p-3 d-flex flex-column"
+         style="width: 245px; height: 100vh; position: fixed;">
+        <h4 class="d-flex align-items-center gap-2">
+            <i class="bi bi-bootstrap"></i>
+            Меню
+        </h4>
+        <div class="bg-primary p-2 rounded">
+            <i class="bi bi-house"></i>
+          Главная
+        </div>
+      <div class="p-2">
+          <i class="bi bi-speedometer2"></i>
+          Категории
+      </div>
+      <div class="p-2">
+          <i class="bi bi-table"></i>
+          Заказы
+      </div>
+      <div class="p-2">
+          <i class="bi bi-person-circle"></i>
+          Контакты
+      </div>
+      <div class="mt-auto">
+          <div class="bg-secondary rounded">
+              <div class="p-2">
+                  Профиль
+              </div>
+              <div class="p-2 border-top border-dark">
+                  Выход
+              </div>
+          </div>
+          <hr>
+          <div class="dropdown">
+              <button class="btn text-white dropdown-toggle">
+                  <i class="bi bi-person-workspace"></i>
+                  Пользователь
+              </button>
+              <ul class="dropdown-menu">
+                  <li><button class="dropdown-item" type="button">Профиль</button></li>
+                  <li><button class="dropdown-item" type="button">Выход action</button></li>
+              </ul>
+              </div>
+          </div>
+      </div>
+    <div style="margin-left: 245px;" class="p-5">
+        <div class="text-center mt-5 mb-5">
+        <h1>Главная</h1>
+        <p class="text-secondary">
+            Вы находитесь на сайте, предназначенном для продажи товаров.
+        </p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-center">
+                            Товар 1
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="text-center display-5">
+                            $ 100
+                        </h2>
+                        <p class="text-secondary">10 users included, 2 GB of storage, Email support, Help center access.
+                        </p>
+                        <button class="btn btn-outline-primary w-100">Купить</button>
+                    </div>
+                </div>
+        </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-center">
+                            Товар 2
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="text-center display-5">
+                            $ 100
+                        </h2>
+                        <p class="text-secondary">10 users included, 2 GB of storage, Email support, Help center access.
+                        </p>
+                        <button class="btn-outline-primary w-100">Купить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-center">
+                            Товар 3
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="text-center display-5">
+                            $ 100
+                        </h2>
+                        <p class="text-secondary">10 users included, 2 GB of storage, Email support, Help center access.
+                        </p>
+                        <button class="btn-outline-primary w-100">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </body>
 </html>
